@@ -6,3 +6,4 @@
 
 **A:** Let the probability in question be $p$. We know that the probability there is no car crash in the hour interval is $\frac{1}{9}$ by complementation.  This is the same as saying that there is no car crash in each of the intervals consisting of the first and last 30 minutes of the hour. By the question, we can say that the number of car crashes in disjoint intervals are independent. This is because they occur at a constant rate throughout time and the arrivals are independent. The probability of no car crash in each of those two intervals individually is $1-p$, so the probability of no car crash in both intervals is $(1-p)^2$, Thus, $(1-p)^2=\frac{1}{9}$, so $p=\frac{2}{3}$.
 
+**Notes:** 这道题的点在于题干是at least one car crash，
